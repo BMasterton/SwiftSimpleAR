@@ -68,7 +68,7 @@
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "Behavior",
+                      "name" : "TapChaching",
                       "triggers" : [
                         {
                           "__content" : [
@@ -82,6 +82,476 @@
                                 "name" : "tapTarget"
                               },
                               "identifier" : "5CB377D7-244D-4A39-A0A8-E067645C5B3B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "direction" : "counterclockwise",
+                                          "duration" : 5,
+                                          "linearCoefficient" : 1,
+                                          "orbitalAxis" : [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "orientToPath" : true,
+                                          "pivotTarget" : "45519B70-F562-4601-965F-579ECD62C4D8",
+                                          "respectPhysics" : false,
+                                          "rotations" : 1,
+                                          "target" : [
+                                            "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "orbitEntity"
+                                        }
+                                      },
+                                      "identifier" : "D35B71A0-08B5-4DED-BD16-0B4B9258CE07",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "B02A4CDB-E3AC-4199-8E6D-0D3CF466EE8C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568628,
+                        0.7254902,
+                        0.8,
+                        1
+                      ],
+                      "identifier" : "08871B0D-EC89-42C6-BE4B-85B24F4E2270",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "OrbitGoldBar",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "OrbitGoldBar"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "C3ED3EDC-F679-4770-8053-52A6FA4390DA",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 5,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            0,
+                                            0.05
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0,
+                                            1,
+                                            0,
+                                            -4.3711385e-08
+                                          ],
+                                          "respectPhysics" : false,
+                                          "scale" : 0.5,
+                                          "target" : [
+                                            "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "absolute",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "FC773998-9A8C-4121-890F-0C77D887472C",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "B62577D7-C807-4C75-9ED6-7788FD170FEC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 5,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            0,
+                                            0,
+                                            -0.8
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "orientation" : [
+                                            0,
+                                            1,
+                                            0,
+                                            -4.3711385e-08
+                                          ],
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "B77E8B8D-F5DD-4C53-ACEB-A2715D87F17D",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "171962AE-079C-4C6D-A7A8-E02DC0B2EA34",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019608,
+                        0.74509805,
+                        0.9490196,
+                        1
+                      ],
+                      "identifier" : "92C6D1AA-11B4-444E-834F-D2842D541D9F",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "MoveAxe",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "64CD1001-AF79-4B48-99FA-A0B05835C771",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                                          ],
+                                          "userIdentifier" : "AxeWasHit"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "46F5BEBF-6B34-4920-8DF7-48A3A691C824",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "2F92A478-9FFF-4E70-9BB9-FF9D0677187A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.chaching-fx\/ChaChing%20FX.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "0F40DB43-1A5E-4DF2-AF0F-6CF4FEC4D24C",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "F232C8D4-44AA-4320-8603-4C7E52EB991B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.30980393,
+                        0.5647059,
+                        0.99215686,
+                        1
+                      ],
+                      "identifier" : "16169FD7-6B6C-487A-AC32-51F81A3DCDC1",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "DetectCollision",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "collidingObjects" : [
+                                    "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                  ],
+                                  "tags" : [
+
+                                  ],
+                                  "target" : [
+                                    "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                                  ]
+                                },
+                                "name" : "collision"
+                              },
+                              "identifier" : "F8756393-A5CF-4847-BE14-D598A100268E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+                                            "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                          ],
+                                          "userIdentifier" : "AxeWasHit"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "E38B340D-A1F3-4854-BCF3-77DC13024E26",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "29253D3C-7142-4A59-8C54-C69E500C2D88",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.cash-register-fx-01\/Cash%20Register%20FX%2001.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "37BC0102-2E91-43D2-9E4C-476B231C2B00",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "A194B0D1-E21D-4C2F-B2AC-0CA285C8056A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.56078434,
+                        0.47058824,
+                        0.8039216,
+                        1
+                      ],
+                      "identifier" : "90331DA4-21F0-4739-A10C-33C53862EA6B",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "collidingObjects" : [
+                                    "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                                  ],
+                                  "tags" : [
+
+                                  ],
+                                  "target" : [
+                                    "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                                  ]
+                                },
+                                "name" : "collision"
+                              },
+                              "identifier" : "EA778505-D817-4D94-AC0D-B89555149147",
                               "isEnabled" : true
                             }
                           ],
@@ -155,6 +625,20 @@
                             "typeName" : "String",
                             "value" : "GoldBar"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
                         ]
                       ]
                     },
@@ -179,9 +663,184 @@
                       ]
                     }
                   },
+                  "6A76D279-BDF0-4C54-B40E-C6C8F5FE3215" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "ATM Icon"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2A245B1F-1295-468C-B218-D46E56E1B4A3"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.ATMIcon.f30598ec-e6e8-4b93-87ce-8fb5be9758ba",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "E6D99516-4BC6-46A6-92B6-45789C590CAE"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.5037412,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.5037412,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.5037412,
+                        0,
+                        -0.5,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "9D6684CE-E12B-4F51-9196-FC691614A0AA" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
-                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "BC3802CF-77A4-4719-B624-9DC3ACF54D64" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Axe"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E5C15BD7-C26B-4A7D-A0EA-6FEBA81CC2AA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Axe.e00e4c5f-082c-4fea-a7e6-70ad0604869a",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "49E175BE-C324-4768-9393-956CBEC7EA1E"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Axe"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.5,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.5,
+                        0,
+                        0,
+                        0,
+                        0.5,
+                        1
+                      ]
+                    }
+                  },
+                  "DDA76A73-314D-4C44-B520-3E4C3981DBEF" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -198,21 +857,21 @@
               "title" : "World",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.5043046,
-                  -3.3527616e-08,
-                  0.86352587,
+                  0.71216446,
+                  -2.2351742e-08,
+                  -0.70201254,
                   0,
-                  0.3167212,
-                  0.93030906,
-                  -0.18496718,
+                  -0.48538515,
+                  0.7224534,
+                  -0.49240443,
                   0,
-                  -0.80334586,
-                  0.36677667,
-                  0.46915898,
+                  0.50717145,
+                  0.69141954,
+                  0.51450574,
                   0,
-                  -1.546849,
-                  0.706232,
-                  0.90336984,
+                  1.1533713,
+                  2.1889346,
+                  3.326881,
                   1
                 ],
                 "sceneTransform" : [
