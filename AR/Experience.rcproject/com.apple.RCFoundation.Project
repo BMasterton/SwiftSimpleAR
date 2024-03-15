@@ -10,7 +10,88 @@
                 "name" : "surface"
               },
               "behaviors" : [
-
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:com.apple.rc.audio.sound-effects.chaching-fx\/ChaChing%20FX.caf",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "45519B70-F562-4601-965F-579ECD62C4D8"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "FE9E37C2-8388-487A-A8AB-1122CED6A5B7",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "6528272D-E5E2-4F91-98E5-62401A9ABABC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.3647059,
+                        0.7411765,
+                        0.6901961,
+                        1
+                      ],
+                      "identifier" : "13FF7DF7-00D3-4F81-A919-C206765323A7",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behavior",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "45519B70-F562-4601-965F-579ECD62C4D8"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "5CB377D7-244D-4A39-A0A8-E067645C5B3B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
               ],
               "gravity" : [
                 0,
@@ -21,26 +102,43 @@
               "material" : "concrete",
               "overrides" : {
                 "children" : {
-                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : {
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
+                  "5AD9241F-75AB-4CBA-A3B4-4D89505F7305" : {
                     "overrides" : {
                       "arguments" : [
                         [
-                          "material",
+                          "item",
                           {
                             "typeName" : "String",
-                            "value" : "steel"
+                            "value" : "Gold Bar"
                           }
                         ],
                         [
-                          "type",
+                          "style",
                           {
                             "typeName" : "String",
-                            "value" : "box"
+                            "value" : "Stylized"
                           }
                         ]
                       ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "E0B1FAC4-B79A-4BDF-A779-73537BE9D2FA"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "identifier" : "com.apple.rc.af.GoldBar.daca25ea-b965-43a5-8cc8-edbf52e9a7dd",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -48,14 +146,14 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
+                            "value" : "45519B70-F562-4601-965F-579ECD62C4D8"
                           }
                         ],
                         [
                           "entityName",
                           {
                             "typeName" : "String",
-                            "value" : "Steel Box"
+                            "value" : "GoldBar"
                           }
                         ]
                       ]
@@ -75,7 +173,7 @@
                         1,
                         0,
                         0,
-                        0.05,
+                        0,
                         0,
                         1
                       ]
@@ -100,21 +198,21 @@
               "title" : "World",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.7817534,
-                  -2.980233e-08,
-                  -0.62358767,
+                  0.5043046,
+                  -3.3527616e-08,
+                  0.86352587,
                   0,
-                  -0.33057407,
-                  0.84792477,
-                  -0.4144204,
+                  0.3167212,
+                  0.93030906,
+                  -0.18496718,
                   0,
-                  0.5287554,
-                  0.53011644,
-                  0.66286814,
+                  -0.80334586,
+                  0.36677667,
+                  0.46915898,
                   0,
-                  1.0181231,
-                  1.0207438,
-                  1.2763582,
+                  -1.546849,
+                  0.706232,
+                  0.90336984,
                   1
                 ],
                 "sceneTransform" : [
